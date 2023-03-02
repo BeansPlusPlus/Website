@@ -51,6 +51,19 @@ h2 {
     background-color: lavenderblush;
 }
 
+.p2 {
+    margin: auto;
+    text-align: center;
+    text-emphasis: bold;
+    color: rgb(250, 112, 0);
+    border-width: 200px;
+    opacity: 80%;
+    border-style: solid;
+    border-radius: 100px;
+    width: 500px;
+    border-style: hidden;
+    background-color: lavenderblush;
+}
 
 button {
     color: darkgoldenrod;
@@ -73,16 +86,19 @@ Body {
 
     height: 100%;
 }
-
 .p {
     width: 250px;
+    margin:auto;
     opacity: 80%;
     text-align: center;
-    text-emphasis: bold;
-    color: darkgreen;
+    color: rgb(255, 255, 255);
     border-width: 200px;
     border-style: solid;
     border-radius: 100px;
     border-style: hidden;
-    background-color: lavenderblush;
+}
+
+.p3 {
+    color: rgb(255, 255, 255);
+
 }
