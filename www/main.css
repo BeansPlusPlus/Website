@@ -86,7 +86,7 @@ Body {
 
     height: 100%;
 }
-p {
+.p {
     width: 250px;
     margin:auto;
     opacity: 80%;
@@ -100,5 +100,4 @@ p {
 
 .p3 {
     color: rgb(255, 255, 255);
-
 }
