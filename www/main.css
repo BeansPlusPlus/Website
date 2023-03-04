@@ -14,10 +14,17 @@
     display: table;
 }
 
-img {
+.img {
     border-style: solid;
     border-color: pink;
-    float: right;
+    margin:auto;
+}
+
+.img1 {
+    border-style: solid;
+    border-color: pink;
+    margin:0 0 0 1000px;
+    position:sticky;
 }
 
 h1 {
