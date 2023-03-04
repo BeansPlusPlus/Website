@@ -13,6 +13,33 @@
     clear: both;
     display: table;
 }
+table {
+    border-collapse: collapse;
+    border: 1px hidden black;
+  } 
+  
+  th,td {
+    border: 1px hidden black;
+  }
+  
+  table.a {
+    table-layout: auto;
+    width: 300px;  
+  }
+  
+  table.b {
+    table-layout: fixed;
+    width: 300px;  
+  }
+  
+  table.c {
+    table-layout: auto;
+    width: 300px;  
+  }
+  
+  table.d {
+    table-layout: fixed;
+    width: 1000px; } 
 
 .img {
     border-style: solid;
@@ -43,6 +70,7 @@ h2 {
     text-align: center;
     border-radius: 100px;
     color: darkgoldenrod;
+    margin: auto;
 }
 
 .p1 {
