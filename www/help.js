@@ -20,3 +20,7 @@ document.getElementById('travel').onclick = () => {
     document.getElementById('take').innerHTML = 'Cool place, you should visit!';
     document.getElementById('take').style.fontSize = "35px"
 }
+
+function formchange() { 
+    alert(document.getElementById('name').value); 
+}
