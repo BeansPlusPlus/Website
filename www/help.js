@@ -22,5 +22,6 @@ document.getElementById('travel').onclick = () => {
 }
 
 function formchange() { 
-    alert(document.getElementById('name').value); 
+    username = document.getElementById('name').value
+    alert("hello " + username); 
 }
