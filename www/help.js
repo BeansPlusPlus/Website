@@ -1,5 +1,5 @@
-const name = 'Beans';
-switch (name) {
+username = document.getElementById('name').value
+switch (username) {
     case 'Beans':
         console.log('Beans is lonely');
         console.log('Go befriend some nerds');
@@ -7,7 +7,7 @@ switch (name) {
     case 'Min':
         console.log('Say hi');
         break;
-        defualt:
+    default:
         console.log('Say hi');
 }
 
