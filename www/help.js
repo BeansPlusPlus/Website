@@ -1,16 +1,15 @@
 const name = 'Beans';
-switch(name) {
-    case'Beans':
-    console.log('Beans is lonely');
-    console.log('Go befriend some nerds');
-break;
-case 'Min':
-    console.log('Say hi');
-    break;
-    defualt:
-     console.log('Say hi');}
-
-
+switch (name) {
+    case 'Beans':
+        console.log('Beans is lonely');
+        console.log('Go befriend some nerds');
+        break;
+    case 'Min':
+        console.log('Say hi');
+        break;
+        defualt:
+        console.log('Say hi');
+}
 
 
 function sayhi() { return "Hi"; }
