@@ -1,3 +1,168 @@
+*/html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+audio,
+canvas,
+progress,
+video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden],
+template {
+    display: none
+}
+
+a {
+    background-color: transparent
+}
+
+a:active,
+a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    -moz-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    color: goldenrod;
+    font: inherit;
+    margin: 0
+    border: hidden 2px;
+    padding: 10px;
+     border-color: goldenrod;
+    
+}
+
+button {
+    overflow: hidden
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
 * {
     box-sizing: border-box;
 }
@@ -42,17 +207,12 @@ table {
     width: 1000px; } 
 
 .img {
-    border-style: solid;
+    border-style: hidden;
+    padding: 10px;
     border-color: pink;
     margin:auto;
 }
 
-.img1 {
-    border-style: solid;
-    border-color: pink;
-    margin:0 0 0 1000px;
-    position:sticky;
-}
 
 h1 {
     border-width: medium;
@@ -60,6 +220,7 @@ h1 {
     width: 700px;
     text-align: center;
     margin: auto;
+    margin-top: 30px;
     padding: 20px;
     background-color: palevioletred;
 }
@@ -71,19 +232,22 @@ h2 {
     border-radius: 100px;
     color: darkgoldenrod;
     margin: auto;
+    opacity: 80;
 }
 
 .p1 {
     margin: auto;
+    opacity: 70;
+    margin-top: 30px;
     text-align: center;
     text-emphasis: bold;
     color: darkgreen;
-    border-width: 200px;
     border-style: solid;
     border-radius: 100px;
-    width: 1000px;
+    width: 900px;
     border-style: hidden;
     background-color: lavenderblush;
+   
 }
 
 .p2 {
@@ -91,17 +255,17 @@ h2 {
     text-align: center;
     text-emphasis: bold;
     color: rgb(250, 112, 0);
-    border-width: 200px;
     opacity: 80%;
     border-style: solid;
     border-radius: 100px;
-    width: 500px;
+    width: 100px;
     border-style: hidden;
     background-color: lavenderblush;
 }
 
 button {
     color: darkgoldenrod;
+    border-style: 1px
 }
 
 h3 {
@@ -122,13 +286,12 @@ Body {
     height: 100%;
 }
 .p {
-    width: 250px;
+    width: 100px;
     margin:auto;
     opacity: 80%;
     text-align: center;
     color: rgb(255, 255, 255);
-    border-width: 200px;
-    border-style: solid;
+    border-width: 100px;
     border-radius: 100px;
     border-style: hidden;
 }
@@ -137,6 +300,7 @@ Body {
     color: rgb(255, 255, 255);
 }
 
+img {color:rgb(250, 112, 0)}
 .randomshit {
     background-color: antiquewhite;
 }
