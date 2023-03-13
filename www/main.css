@@ -122,7 +122,7 @@ samp {
     font-size: 1em
 }
 
-button,
+.button,
 input,
 optgroup,
 select,
@@ -145,7 +145,7 @@ select {
     text-transform: none
 }
 
-button,
+.button,
 html input[type=button],
 input[type=reset],
 input[type=submit] {
