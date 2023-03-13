@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="boots.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script defer src="typescript.JSX"></script>
 </head>
 <script>
   window.alert("Sup Nerd!");
@@ -33,10 +36,12 @@
     <tr>
       <th>
         <h2> GAMEMODES: </h2> <br>
-        <button>Hunter vs Speedrunner</button> <br>
-        <button>Death Swap</button> <br>
-        <button>Block Shuffle</button> <br>
-        <button>Creative Free For All</button>
+        <ul>
+          <li><button>Hunter vs Speedrunner</button> </li> <br>
+          <li><button>Death Swap</button></li> <br>
+          <li><button>Block Shuffle</button></li> <br>
+          <li><button>Creative Free For All</button></li> <br>
+        </ul>
       </th>
       <th> </th>
       <th>
@@ -46,13 +51,15 @@
         <p class="p3"> <em>(Pinky is a soft-toy, friend, and mascot)</em></p> <br> <button
           onclick="document.getElementById('myImage').src='Pinky1.png' ">Pinky pic
           1!</button> <button onclick="document.getElementById('myImage').src='Pinky2.png' ">Pinky pic
-          2!<button onclick="document.getElementById('myImage').src='Pinky.png' ">Pinky pic!</button> <img
+          2!<button onclick="document.getElementById('myImage').src='Pinky.png' "> 
+            Pinky pic!</button> <br> <img
             style=" width:200px; border-radius: 100px" id="myImage" src="Pinky.png">
+          <div  id="like_button_container">
+          </div>
       </th>
     </tr>
   </table>
   </div>
-
   <br>
   <br>
   <br>
@@ -106,8 +113,8 @@
     <div class="p2">
       <p id="take"> Explore... </p>
     </div>
-    <a target="_blank" href="https://www.youtube.com/watch?v=LJVaTa4CubI"> <button id="travel" style="margin:auto"
-        >"<em>Live Kittens (leave page)</em>"</button> </a>
+    <a target="_blank" href="https://www.youtube.com/watch?v=LJVaTa4CubI"> <button id="travel"
+        style="margin:auto">"<em>Live Kittens (leave page)</em>"</button> </a>
 
   </div>
 
